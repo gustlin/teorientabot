@@ -3,7 +3,8 @@ name = "te-orienta-bot"
 version = "0.1.0"
 description = "Discord bot for ENEM tutoring"
 authors = ["Your Name <you@example.com>"]
-packages = []    
+packages = []
+include = ["*.py"]
 
 [tool.poetry.dependencies]
 python = "^3.10.16"
